@@ -13,7 +13,7 @@ This repository contains the full code and methodology for my MSc dissertation p
 
 ## Files
 - `LLm-Loan-Bias-Dissertation` – full Jupyter notebook with code, analysis, and results
-- `Georgia_Dataset.csv` – small example dataset 
+- `cleaned_dataset.csv` – small example dataset 
 - `README.md` – project summary
 
 ## Contact
