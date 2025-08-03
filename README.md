@@ -7,8 +7,8 @@ This repository contains the full code and methodology for my MSc dissertation p
 
 ## Overview
 - Dataset: 2024 HMDA (Georgia)
-- Models: GPT-3.5 Turbo, Gemini 2.5 Flash
-- Method: Multi-agent loop with prompt optimization
+- Models: GPT-3.5 Turbo, Gemini 2.5 Flash, GPT-4o
+- Method: Multi-agent modelling
 - Goal: Reduce racial approval rate disparity in loan decisions
 
 
