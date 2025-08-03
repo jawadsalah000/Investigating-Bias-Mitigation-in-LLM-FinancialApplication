@@ -68,4 +68,3 @@ Respond in the format:
 
 Only respond with one line.
 """
-###hello test test
