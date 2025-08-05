@@ -1,7 +1,7 @@
 import openai
 import google.generativeai as genai
 
-client = openai.OpenAI(api_key="N/A")
+##api key removed 
 
 # Agent A - GPT-3.5 (Evaluator)
 class AgentA_GPT:
