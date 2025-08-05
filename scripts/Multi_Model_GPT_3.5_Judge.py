@@ -1,8 +1,7 @@
 import openai
 import google.generativeai as genai
 
-client = openai.OpenAI(api_key="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")
-genai.configure(api_key="AIzaSyBimH_WLCUIgucBK-HRuHMj1jS2OMgmPKg")
+## api key removed
 
 # Agent A - Gemini (Evaluator)
 class AgentA_Gemini:
