@@ -1,7 +1,0 @@
-run,scenario,overall_rate,dp_gap,white_rate,black_rate
-cat_results_no_race_synthetic,no_race,0.41,0.0,0.41,0.41
-cat_results_no_race_synthetic_2,no_race,0.41,0.0,0.41,0.41
-cat_results_no_race_synthetic_3,no_race,0.41,0.0,0.41,0.41
-cat_results_with_race_synthetic,with_race,0.595,0.08999999999999997,0.64,0.55
-cat_results_with_race_synthetic_2,with_race,0.595,0.08999999999999997,0.64,0.55
-cat_results_with_race_synthetic_3,with_race,0.595,0.08999999999999997,0.64,0.55
