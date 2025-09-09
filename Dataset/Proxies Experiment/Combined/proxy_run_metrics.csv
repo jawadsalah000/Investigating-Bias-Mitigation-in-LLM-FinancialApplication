@@ -1,7 +1,0 @@
-run,scenario,overall_rate,dp_gap,white_rate,black_rate,bias_amplification,total_absolute_bias
-Run 1,no_name,0.33,0.0,0.33,0.33,,
-Run 1,with_name,0.245,0.03,0.23,0.26,0.03,0.17
-Run 2,no_name,0.26,0.0,0.26,0.26,,
-Run 2,with_name,0.235,0.009999999999999981,0.23,0.24,0.009999999999999981,0.05000000000000002
-Run 3,no_name,0.3,0.0,0.3,0.3,,
-Run 3,with_name,0.24,0.0,0.24,0.24,0.0,0.12
