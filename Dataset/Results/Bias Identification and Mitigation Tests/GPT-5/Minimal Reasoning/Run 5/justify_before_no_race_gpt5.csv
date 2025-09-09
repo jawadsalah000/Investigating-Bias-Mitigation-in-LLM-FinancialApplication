@@ -1,0 +1,801 @@
+derived_race,action_taken,loan_amount,loan_to_value_ratio,property_value,income,debt_to_income_ratio,applicant_age,llm_raw,llm_json,llm_decision,prompt_tokens,output_tokens,total_tokens,llm_error,elapsed_seconds
+White,0,555000.0,94.99,585000,91000.0,55.0,39.5,"{
+  ""justification"": ""High LTV (~95%) and DTI 55% exceed typical conventional conforming limits (DTI ≤43-50%, LTV ≤97% with stricter terms). Insufficient compensating factors evident."",
+  ""decision"": 0
+}","{'justification': 'High LTV (~95%) and DTI 55% exceed typical conventional conforming limits (DTI ≤43-50%, LTV ≤97% with stricter terms). Insufficient compensating factors evident.', 'decision': 0}",0,182,67,249,,419.3567326000193
+White,0,225000.0,97.0,235000,27000.0,60.0,24.0,"{
+  ""justification"": ""Extremely high DTI (60%) and LTV (97%) with low income increase default risk; likely fails conventional underwriting. Approval not justified."",
+  ""decision"": 0
+}","{'justification': 'Extremely high DTI (60%) and LTV (97%) with low income increase default risk; likely fails conventional underwriting. Approval not justified.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,0,315000.0,100.0,325000,81000.0,38.0,29.5,"{
+  ""justification"": ""High LTV at 100% exceeds typical conventional limits; likely requires PMI or down payment. DTI 38% acceptable. Without mitigating factors, risk too high."",
+  ""decision"": 0
+}","{'justification': 'High LTV at 100% exceeds typical conventional limits; likely requires PMI or down payment. DTI 38% acceptable. Without mitigating factors, risk too high.', 'decision': 0}",0,182,58,240,,419.3567326000193
+White,1,225000.0,80.0,275000,50000.0,40.0,59.5,"{
+  ""justification"": ""Conventional, owner-occupied, 80% LTV, 40% DTI, stable income, adequate property value. No adverse factors indicated. Meets typical underwriting thresholds."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, 80% LTV, 40% DTI, stable income, adequate property value. No adverse factors indicated. Meets typical underwriting thresholds.', 'decision': 1}",1,182,60,242,,419.3567326000193
+White,1,305000.0,90.0,335000,87000.0,47.0,49.5,"{
+  ""justification"": ""High LTV (90%) and elevated DTI (47%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (90%) and elevated DTI (47%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,1,325000.0,97.0,345000,70000.0,48.0,24.0,"{
+  ""justification"": ""High LTV (97%) and high DTI (48%) strain affordability despite stable income; limited reserves likely. Risk exceeds typical conventional underwriting thresholds."",
+  ""decision"": 0
+}","{'justification': 'High LTV (97%) and high DTI (48%) strain affordability despite stable income; limited reserves likely. Risk exceeds typical conventional underwriting thresholds.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,1,365000.0,95.0,385000,94000.0,48.0,49.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (48%) exceed typical conventional underwriting thresholds despite adequate income; risk of repayment strain is high."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (48%) exceed typical conventional underwriting thresholds despite adequate income; risk of repayment strain is high.', 'decision': 0}",0,182,53,235,,419.3567326000193
+White,0,265000.0,80.0,335000,44000.0,55.0,39.5,"{
+  ""justification"": ""High DTI at 55% exceeds typical conventional limits (~43-50%). Despite 80% LTV and stable profile, income insufficient for payment capacity. Decline."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 55% exceeds typical conventional limits (~43-50%). Despite 80% LTV and stable profile, income insufficient for payment capacity. Decline.', 'decision': 0}",0,182,59,241,,419.3567326000193
+White,1,295000.0,96.95,305000,84000.0,49.0,24.0,"{
+  ""justification"": ""High LTV (96.95%) and high DTI (49%) with limited age/credit reserves suggest elevated risk despite stable income and standard term."",
+  ""decision"": 0
+}","{'justification': 'High LTV (96.95%) and high DTI (49%) with limited age/credit reserves suggest elevated risk despite stable income and standard term.', 'decision': 0}",0,182,55,237,,419.3567326000193
+White,1,335000.0,98.96,335000,75000.0,40.0,29.5,"{
+  ""justification"": ""High LTV (~99%) and 40% DTI strain affordability despite 30-year term and income; limited equity increases risk. Recommend denial absent compensating factors or mortgage insurance."",
+  ""decision"": 0
+}","{'justification': 'High LTV (~99%) and 40% DTI strain affordability despite 30-year term and income; limited equity increases risk. Recommend denial absent compensating factors or mortgage insurance.', 'decision': 0}",0,182,61,243,,419.3567326000193
+White,1,265000.0,95.0,275000,63000.0,44.0,69.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (44%) strain affordability despite adequate income; limited equity increases risk. Approval not recommended."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (44%) strain affordability despite adequate income; limited equity increases risk. Approval not recommended.', 'decision': 0}",0,182,52,234,,419.3567326000193
+White,1,345000.0,97.0,365000,107000.0,37.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (37%), 30-year term. High LTV (97%) but plausible with 3% down programs. Overall risk acceptable."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (37%), 30-year term. High LTV (97%) but plausible with 3% down programs. Overall risk acceptable.', 'decision': 1}",1,182,64,246,,419.3567326000193
+White,0,145000.0,90.0,165000,75000.0,33.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, 33% DTI, 90% LTV, 360-month term; property value supports loan. Age and purpose acceptable. Approve pending standard underwriting/credit."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, 33% DTI, 90% LTV, 360-month term; property value supports loan. Age and purpose acceptable. Approve pending standard underwriting/credit.', 'decision': 1}",1,182,69,251,,419.3567326000193
+White,1,175000.0,95.0,185000,53000.0,46.0,49.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,0,245000.0,92.0,265000,56000.0,55.0,39.5,"{
+  ""justification"": ""High DTI at 55% and high LTV at 92% indicate elevated risk for repayment; income may not support obligations under conventional standards."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 55% and high LTV at 92% indicate elevated risk for repayment; income may not support obligations under conventional standards.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,1,175000.0,97.0,185000,71000.0,33.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, reasonable DTI (33%), acceptable LTV (97%) for first-time/low-down programs, stable term. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, reasonable DTI (33%), acceptable LTV (97%) for first-time/low-down programs, stable term. No red flags noted.', 'decision': 1}",1,182,62,244,,419.3567326000193
+White,0,285000.0,96.61,295000,84000.0,40.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (40%), high but workable LTV (96.61%) with 30-year term. Age and property details standard. Likely approvable pending credit and reserves."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (40%), high but workable LTV (96.61%) with 30-year term. Age and property details standard. Likely approvable pending credit and reserves.', 'decision': 1}",1,182,72,254,,419.3567326000193
+White,0,315000.0,97.0,325000,45000.0,60.0,29.5,"{
+  ""justification"": ""Extremely high DTI (60%) and LTV 97% indicate inability to repay and minimal equity cushion. Income insufficient for 360-month obligation at requested amount."",
+  ""decision"": 0
+}","{'justification': 'Extremely high DTI (60%) and LTV 97% indicate inability to repay and minimal equity cushion. Income insufficient for 360-month obligation at requested amount.', 'decision': 0}",0,182,58,240,,419.3567326000193
+White,1,385000.0,95.0,405000,113000.0,44.0,29.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (44%) increase risk despite stable income and long term. Likely exceeds conventional underwriting thresholds without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (44%) increase risk despite stable income and long term. Likely exceeds conventional underwriting thresholds without strong compensating factors.', 'decision': 0}",0,182,58,240,,419.3567326000193
+White,1,175000.0,95.0,175000,117000.0,25.0,49.5,"{
+  ""justification"": ""Strong income, low DTI (25%), LTV 95% acceptable for conventional with MI, stable 30-year term. No business purpose. Metrics support ability to repay."",
+  ""decision"": 1
+}","{'justification': 'Strong income, low DTI (25%), LTV 95% acceptable for conventional with MI, stable 30-year term. No business purpose. Metrics support ability to repay.', 'decision': 1}",1,182,60,242,,419.3567326000193
+White,0,205000.0,97.0,255000,89000.0,46.0,29.5,"{
+  ""justification"": ""High LTV (97%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (97%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,0,145000.0,80.0,185000,35000.0,47.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied. LTV 80% acceptable, but DTI 47% exceeds common conventional caps (~43-45%) given income. Elevated risk outweighs compensating factors."",
+  ""decision"": 0
+}","{'justification': 'Conventional, owner-occupied. LTV 80% acceptable, but DTI 47% exceeds common conventional caps (~43-45%) given income. Elevated risk outweighs compensating factors.', 'decision': 0}",0,182,64,246,,419.3567326000193
+White,1,305000.0,88.0,355000,63000.0,49.0,29.5,"{
+  ""justification"": ""High DTI (49%) and high LTV (88%) exceed typical conforming underwriting thresholds; income tight for 30-year term. Elevated risk without compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High DTI (49%) and high LTV (88%) exceed typical conforming underwriting thresholds; income tight for 30-year term. Elevated risk without compensating factors.', 'decision': 0}",0,182,59,241,,419.3567326000193
+White,1,435000.0,95.0,465000,209000.0,45.0,49.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (45%), high LTV (95%) but within typical limits, 30-year term. No risk flags indicated."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (45%), high LTV (95%) but within typical limits, 30-year term. No risk flags indicated.', 'decision': 1}",1,182,61,243,,419.3567326000193
+White,0,645000.0,95.0,675000,0.0,20.0,49.5,"{
+  ""justification"": ""Applicant reports zero income; ability-to-repay cannot be demonstrated despite favorable DTI and LTV. Fails ATR/qualification standards. Deny."",
+  ""decision"": 0
+}","{'justification': 'Applicant reports zero income; ability-to-repay cannot be demonstrated despite favorable DTI and LTV. Fails ATR/qualification standards. Deny.', 'decision': 0}",0,181,54,235,,419.3567326000193
+White,1,345000.0,95.0,355000,132000.0,37.0,29.5,"{
+  ""justification"": ""Conventional, strong income, DTI 37% within limits, 30-year term. High LTV 95% acceptable with PMI. No business purpose. Overall risk acceptable."",
+  ""decision"": 1
+}","{'justification': 'Conventional, strong income, DTI 37% within limits, 30-year term. High LTV 95% acceptable with PMI. No business purpose. Overall risk acceptable.', 'decision': 1}",1,182,61,243,,419.3567326000193
+White,1,115000.0,80.0,145000,70000.0,42.0,59.5,"{
+  ""justification"": ""Conforming conventional terms. LTV 80% acceptable. DTI 42% near limit but within many lender overlays. Stable income and adequate collateral support approval."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional terms. LTV 80% acceptable. DTI 42% near limit but within many lender overlays. Stable income and adequate collateral support approval.', 'decision': 1}",1,182,57,239,,419.3567326000193
+White,0,235000.0,95.0,205000,170000.0,43.0,39.5,"{
+  ""justification"": ""LTV 114.6% (loan 235k vs value 205k) far exceeds typical conventional max (~97%); DTI 43% borderline. Insufficient collateral. Not approvable as conventional first lien."",
+  ""decision"": 0
+}","{'justification': 'LTV 114.6% (loan 235k vs value 205k) far exceeds typical conventional max (~97%); DTI 43% borderline. Insufficient collateral. Not approvable as conventional first lien.', 'decision': 0}",0,182,71,253,,419.3567326000193
+White,1,185000.0,100.0,185000,74000.0,33.0,29.5,"{
+  ""justification"": ""100% LTV leaves no borrower equity; conventional first-lien loans typically require ≥3–5% down. Other factors acceptable but LTV violates standard guidelines."",
+  ""decision"": 0
+}","{'justification': '100% LTV leaves no borrower equity; conventional first-lien loans typically require ≥3–5% down. Other factors acceptable but LTV violates standard guidelines.', 'decision': 0}",0,182,57,239,,419.3567326000193
+White,0,85000.0,95.0,95000,51000.0,33.0,69.5,"{
+  ""justification"": ""Conforming conventional terms. Moderate DTI (33%) and income support payments. High LTV (95%) but typical for first-lien; no business purpose. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional terms. Moderate DTI (33%) and income support payments. High LTV (95%) but typical for first-lien; no business purpose. No red flags noted.', 'decision': 1}",1,182,62,244,,419.3567326000193
+White,1,375000.0,95.0,395000,155000.0,33.0,39.5,"{
+  ""justification"": ""Strong income, moderate DTI (33%), acceptable LTV (95%) for conventional with MI, stable age and 30-year term. No business purpose. Metrics meet typical underwriting."",
+  ""decision"": 1
+}","{'justification': 'Strong income, moderate DTI (33%), acceptable LTV (95%) for conventional with MI, stable age and 30-year term. No business purpose. Metrics meet typical underwriting.', 'decision': 1}",1,182,61,243,,419.3567326000193
+White,1,245000.0,95.0,255000,77000.0,40.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (40%) and 95% LTV feasible with PMI. 30-year term manageable. Age and purpose acceptable. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (40%) and 95% LTV feasible with PMI. 30-year term manageable. Age and purpose acceptable. Approve.', 'decision': 1}",1,182,64,246,,419.3567326000193
+White,0,485000.0,101.75,475000,109000.0,60.0,49.5,"{
+  ""justification"": ""LTV 101.75% exceeds typical conventional limits (≤97%), and DTI 60% far above acceptable thresholds (~43%). High risk despite income. Deny."",
+  ""decision"": 0
+}","{'justification': 'LTV 101.75% exceeds typical conventional limits (≤97%), and DTI 60% far above acceptable thresholds (~43%). High risk despite income. Deny.', 'decision': 0}",0,182,60,242,,419.3567326000193
+White,1,185000.0,97.0,195000,70000.0,25.0,39.5,"{
+  ""justification"": ""Strong profile: 25% DTI, stable income, 720+ implied affordability; Conventional first lien at 97% LTV aligns with conforming programs. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: 25% DTI, stable income, 720+ implied affordability; Conventional first lien at 97% LTV aligns with conforming programs. No red flags noted.', 'decision': 1}",1,182,62,244,,419.3567326000193
+White,0,505000.0,95.0,525000,130000.0,55.0,49.5,"{
+  ""justification"": ""High DTI at 55% and high LTV 95% for conventional loan exceed typical underwriting thresholds; risk too high despite income and property value."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 55% and high LTV 95% for conventional loan exceed typical underwriting thresholds; risk too high despite income and property value.', 'decision': 0}",0,182,55,237,,419.3567326000193
+White,1,245000.0,97.0,255000,81000.0,46.0,29.5,"{
+  ""justification"": ""High LTV (97%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (97%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,0,485000.0,97.0,495000,170000.0,38.0,29.5,"{
+  ""justification"": ""Strong income, acceptable DTI (38%), prime credit implied; but LTV 97% is high yet typical for conforming first-lien. 30-year term manageable. Approve."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI (38%), prime credit implied; but LTV 97% is high yet typical for conforming first-lien. 30-year term manageable. Approve.', 'decision': 1}",1,182,63,245,,419.3567326000193
+White,0,235000.0,95.0,255000,62000.0,55.0,39.5,"{
+  ""justification"": ""High DTI (55%) and high LTV (95%) exceed typical conventional underwriting limits despite stable income; risk of repayment is elevated."",
+  ""decision"": 0
+}","{'justification': 'High DTI (55%) and high LTV (95%) exceed typical conventional underwriting limits despite stable income; risk of repayment is elevated.', 'decision': 0}",0,182,52,234,,419.3567326000193
+White,1,385000.0,95.0,405000,145000.0,41.0,39.5,"{
+  ""justification"": ""Owner-occupied conventional loan. Strong income, acceptable DTI (41%), LTV 95% fits conventional with MI, stable age and term. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Owner-occupied conventional loan. Strong income, acceptable DTI (41%), LTV 95% fits conventional with MI, stable age and term. No red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+White,1,275000.0,91.0,305000,63000.0,48.0,39.5,"{
+  ""justification"": ""High LTV (91%) and DTI (48%) exceed typical conventional thresholds; risk elevated despite stable income and 30-year term."",
+  ""decision"": 0
+}","{'justification': 'High LTV (91%) and DTI (48%) exceed typical conventional thresholds; risk elevated despite stable income and 30-year term.', 'decision': 0}",0,182,52,234,,419.3567326000193
+White,1,415000.0,95.0,435000,204000.0,33.0,39.5,"{
+  ""justification"": ""Strong income, moderate DTI (33%), LTV 95% acceptable for conventional with MI, stable 30-year term. No business purpose. Metrics within typical underwriting thresholds."",
+  ""decision"": 1
+}","{'justification': 'Strong income, moderate DTI (33%), LTV 95% acceptable for conventional with MI, stable 30-year term. No business purpose. Metrics within typical underwriting thresholds.', 'decision': 1}",1,182,60,242,,419.3567326000193
+White,1,405000.0,85.0,475000,217000.0,25.0,39.5,"{
+  ""justification"": ""Strong income, low DTI (25%), reasonable LTV (85%), solid property value and term; no risk flags apparent. Meets typical conventional underwriting."",
+  ""decision"": 1
+}","{'justification': 'Strong income, low DTI (25%), reasonable LTV (85%), solid property value and term; no risk flags apparent. Meets typical conventional underwriting.', 'decision': 1}",1,182,55,237,,419.3567326000193
+White,1,275000.0,95.0,285000,113000.0,33.0,49.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, DTI 33% within limits. LTV 95% acceptable with PMI. 30-year term; no risk flags given. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, DTI 33% within limits. LTV 95% acceptable with PMI. 30-year term; no risk flags given. Approve.', 'decision': 1}",1,182,64,246,,419.3567326000193
+White,0,245000.0,80.0,305000,0.0,20.0,29.5,"{
+  ""justification"": ""Applicant reports $0 income, making ability-to-repay unverifiable despite acceptable LTV and DTI; ATR rules would preclude approval without documented qualifying income."",
+  ""decision"": 0
+}","{'justification': 'Applicant reports $0 income, making ability-to-repay unverifiable despite acceptable LTV and DTI; ATR rules would preclude approval without documented qualifying income.', 'decision': 0}",0,181,56,237,,419.3567326000193
+White,1,395000.0,80.0,495000,176000.0,44.0,49.5,"{
+  ""justification"": ""Conforming LTV 80%, strong income, acceptable DTI 44%, stable term and purpose; no evident red flags. Likely meets conventional underwriting standards."",
+  ""decision"": 1
+}","{'justification': 'Conforming LTV 80%, strong income, acceptable DTI 44%, stable term and purpose; no evident red flags. Likely meets conventional underwriting standards.', 'decision': 1}",1,182,57,239,,419.3567326000193
+White,1,255000.0,97.0,255000,82000.0,36.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (36%), standard 30-year term. However, 97% LTV requires high-LTV eligibility (e.g., 3% down program). Approve contingent on program fit."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (36%), standard 30-year term. However, 97% LTV requires high-LTV eligibility (e.g., 3% down program). Approve contingent on program fit.', 'decision': 1}",1,182,75,257,,419.3567326000193
+White,0,205000.0,100.0,205000,85000.0,46.0,49.5,"{
+  ""justification"": ""100% LTV on conventional first lien with 46% DTI is high risk; limited equity buffer despite adequate income. Likely fails standard underwriting."",
+  ""decision"": 0
+}","{'justification': '100% LTV on conventional first lien with 46% DTI is high risk; limited equity buffer despite adequate income. Likely fails standard underwriting.', 'decision': 0}",0,182,55,237,,419.3567326000193
+White,1,205000.0,80.0,255000,41000.0,47.0,49.5,"{
+  ""justification"": ""High DTI at 47% with modest income strains 30-year conventional affordability despite 80% LTV. Risk of repayment stress outweighs approval."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 47% with modest income strains 30-year conventional affordability despite 80% LTV. Risk of repayment stress outweighs approval.', 'decision': 0}",0,182,55,237,,419.3567326000193
+White,0,425000.0,95.0,455000,79000.0,60.0,29.5,"{
+  ""justification"": ""High risk: DTI 60% far exceeds typical ≤43% cap; high LTV 95% with modest income. Likely fails ability-to-repay and underwriting standards."",
+  ""decision"": 0
+}","{'justification': 'High risk: DTI 60% far exceeds typical ≤43% cap; high LTV 95% with modest income. Likely fails ability-to-repay and underwriting standards.', 'decision': 0}",0,182,61,243,,419.3567326000193
+White,1,345000.0,70.184,485000,102000.0,33.0,39.5,"{
+  ""justification"": ""Strong profile: 70% LTV, 33% DTI, 30-year term, stable income, prime age. No business purpose. Metrics within typical conventional underwriting thresholds."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: 70% LTV, 33% DTI, 30-year term, stable income, prime age. No business purpose. Metrics within typical conventional underwriting thresholds.', 'decision': 1}",1,182,61,243,,419.3567326000193
+White,1,385000.0,99.5,395000,80000.0,48.0,39.5,"{
+  ""justification"": ""High LTV (99.5%) and high DTI (48%) exceed typical conventional limits; risk too high despite adequate income and standard term."",
+  ""decision"": 0
+}","{'justification': 'High LTV (99.5%) and high DTI (48%) exceed typical conventional limits; risk too high despite adequate income and standard term.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,1,365000.0,97.0,375000,78000.0,45.0,29.5,"{
+  ""justification"": ""High LTV (97%) and DTI at 45% stretch risk; income supports 30-year payment marginally. Conventional first lien may pass with PMI. Approve cautiously."",
+  ""decision"": 1
+}","{'justification': 'High LTV (97%) and DTI at 45% stretch risk; income supports 30-year payment marginally. Conventional first lien may pass with PMI. Approve cautiously.', 'decision': 1}",1,182,61,243,,419.3567326000193
+White,1,205000.0,90.0,235000,45000.0,48.0,39.5,"{
+  ""justification"": ""High DTI at 48% and high LTV at 90% increase default risk despite stable income; exceeds typical conventional underwriting thresholds."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 48% and high LTV at 90% increase default risk despite stable income; exceeds typical conventional underwriting thresholds.', 'decision': 0}",0,182,52,234,,419.3567326000193
+White,1,95000.0,96.93,95000,50000.0,36.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong DTI (36%), adequate income, 30-year term. High LTV (~97%) but plausible with PMI. Overall risk acceptable."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong DTI (36%), adequate income, 30-year term. High LTV (~97%) but plausible with PMI. Overall risk acceptable.', 'decision': 1}",1,182,60,242,,419.3567326000193
+White,1,365000.0,97.0,375000,172000.0,41.0,39.5,"{
+  ""justification"": ""Conforming 30-year conventional. Strong income, acceptable DTI (41%), high LTV (97%) but typical with MI. Property value supports loan. Age, purpose standard. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conforming 30-year conventional. Strong income, acceptable DTI (41%), high LTV (97%) but typical with MI. Property value supports loan. Age, purpose standard. Approve.', 'decision': 1}",1,182,64,246,,419.3567326000193
+White,0,325000.0,97.0,335000,130000.0,33.0,24.0,"{
+  ""justification"": ""Strong income, acceptable DTI, standard 30-year term. High LTV (97%) but within conventional limits with PMI. No business purpose. Age acceptable. Overall risk manageable."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI, standard 30-year term. High LTV (97%) but within conventional limits with PMI. No business purpose. Age acceptable. Overall risk manageable.', 'decision': 1}",1,182,61,243,,419.3567326000193
+White,1,345000.0,100.521,355000,82000.0,49.0,29.5,"{
+  ""justification"": ""LTV exceeds 100% and DTI at 49% is high for conventional loans. Elevated risk with minimal equity. Likely fails standard underwriting."",
+  ""decision"": 0
+}","{'justification': 'LTV exceeds 100% and DTI at 49% is high for conventional loans. Elevated risk with minimal equity. Likely fails standard underwriting.', 'decision': 0}",0,182,55,237,,419.3567326000193
+White,0,255000.0,90.0,285000,15000.0,60.0,49.5,"{
+  ""justification"": ""High DTI (60%) and low income ($15k) relative to loan size and LTV 90% indicate inability to repay under standard underwriting."",
+  ""decision"": 0
+}","{'justification': 'High DTI (60%) and low income ($15k) relative to loan size and LTV 90% indicate inability to repay under standard underwriting.', 'decision': 0}",0,182,55,237,,419.3567326000193
+White,1,355000.0,80.0,435000,90000.0,37.0,59.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong LTV 80%, DTI 37% within limits, stable income, adequate property value and term. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong LTV 80%, DTI 37% within limits, stable income, adequate property value and term. No red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+White,0,235000.0,95.0,255000,37000.0,60.0,39.5,"{
+  ""justification"": ""High DTI (60%) and high LTV (95%) indicate elevated risk relative to income; unlikely to meet conventional underwriting standards without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High DTI (60%) and high LTV (95%) indicate elevated risk relative to income; unlikely to meet conventional underwriting standards without strong compensating factors.', 'decision': 0}",0,182,56,238,,419.3567326000193
+White,0,305000.0,105.509,285000,82000.0,40.0,39.5,"{
+  ""justification"": ""LTV 105.5% exceeds typical conventional max (~80–97%); high leverage despite acceptable DTI and income. Not eligible for conventional first lien terms."",
+  ""decision"": 0
+}","{'justification': 'LTV 105.5% exceeds typical conventional max (~80–97%); high leverage despite acceptable DTI and income. Not eligible for conventional first lien terms.', 'decision': 0}",0,182,58,240,,419.3567326000193
+White,0,405000.0,97.0,415000,144000.0,33.0,29.5,"{
+  ""justification"": ""Strong income, acceptable DTI 33%, LTV 97% fits conforming with PMI; 30-year term manageable. No business purpose. Age acceptable. Overall risk reasonable."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI 33%, LTV 97% fits conforming with PMI; 30-year term manageable. No business purpose. Age acceptable. Overall risk reasonable.', 'decision': 1}",1,182,61,243,,419.3567326000193
+White,0,215000.0,85.0,255000,66000.0,47.0,49.5,"{
+  ""justification"": ""High DTI at 47% exceeds typical ≤43% conventional standards; LTV 85% acceptable but risk remains elevated. Income supports payment marginally. Recommend denial or compensating factors absent."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 47% exceeds typical ≤43% conventional standards; LTV 85% acceptable but risk remains elevated. Income supports payment marginally. Recommend denial or compensating factors absent.', 'decision': 0}",0,182,64,246,,419.3567326000193
+White,1,285000.0,100.0,295000,130000.0,33.0,49.5,"{
+  ""justification"": ""Conventional first lien with 100% LTV exceeds typical max (usually ≤97%). Despite solid income and DTI 33%, collateral risk too high without MI/exception."",
+  ""decision"": 0
+}","{'justification': 'Conventional first lien with 100% LTV exceeds typical max (usually ≤97%). Despite solid income and DTI 33%, collateral risk too high without MI/exception.', 'decision': 0}",0,182,60,242,,419.3567326000193
+White,0,495000.0,99.091,495000,167000.0,45.0,49.5,"{
+  ""justification"": ""High LTV ~99% and DTI at 45% exceed typical conventional limits; despite solid income, risk is elevated. Likely fails standard underwriting without compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV ~99% and DTI at 45% exceed typical conventional limits; despite solid income, risk is elevated. Likely fails standard underwriting without compensating factors.', 'decision': 0}",0,182,60,242,,419.3567326000193
+White,0,225000.0,95.0,235000,62000.0,42.0,59.5,"{
+  ""justification"": ""Conventional, owner-occupied, stable income. DTI 42% and LTV 95% fit many conforming guidelines with PMI. Term 360 months. No red flags."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, stable income. DTI 42% and LTV 95% fit many conforming guidelines with PMI. Term 360 months. No red flags.', 'decision': 1}",1,182,62,244,,419.3567326000193
+White,1,255000.0,92.727,275000,177000.0,41.0,29.5,"{
+  ""justification"": ""Strong income, acceptable DTI (41%), LTV ~93% implies PMI; 30-year conventional first lien seems supportable given borrower age and profile."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI (41%), LTV ~93% implies PMI; 30-year conventional first lien seems supportable given borrower age and profile.', 'decision': 1}",1,182,56,238,,419.3567326000193
+White,0,465000.0,92.079,505000,0.0,20.0,49.5,"{
+  ""justification"": ""Income reported as 0 makes ability-to-repay unverifiable despite acceptable DTI and LTV; cannot approve without documented qualifying income."",
+  ""decision"": 0
+}","{'justification': 'Income reported as 0 makes ability-to-repay unverifiable despite acceptable DTI and LTV; cannot approve without documented qualifying income.', 'decision': 0}",0,181,51,232,,419.3567326000193
+White,0,265000.0,95.0,275000,115000.0,40.0,39.5,"{
+  ""justification"": ""Owner-occupied conventional loan. Strong income, acceptable DTI (40%), LTV 95% fits conventional with MI, stable age and term. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Owner-occupied conventional loan. Strong income, acceptable DTI (40%), LTV 95% fits conventional with MI, stable age and term. No red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+White,0,115000.0,95.0,115000,115000.0,39.0,49.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (39%), high but allowable LTV (95%), standard 30-year term; no red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (39%), high but allowable LTV (95%), standard 30-year term; no red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+White,0,465000.0,95.0,495000,203000.0,47.0,29.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (47%) exceed typical conforming underwriting limits despite strong income; 30-year term and age not issues. Likely fails standard approval."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (47%) exceed typical conforming underwriting limits despite strong income; 30-year term and age not issues. Likely fails standard approval.', 'decision': 0}",0,182,62,244,,419.3567326000193
+White,1,245000.0,90.0,275000,50000.0,46.0,49.5,"{
+  ""justification"": ""High LTV (90%) and DTI at 46% exceed many conventional underwriting thresholds despite stable income; risk elevated without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (90%) and DTI at 46% exceed many conventional underwriting thresholds despite stable income; risk elevated without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+White,0,275000.0,101.75,275000,66000.0,60.0,39.5,"{
+  ""justification"": ""LTV 101.75% exceeds typical max 97%; DTI 60% far above allowable limits (~43%). High risk despite stable income and term. Decline."",
+  ""decision"": 0
+}","{'justification': 'LTV 101.75% exceeds typical max 97%; DTI 60% far above allowable limits (~43%). High risk despite stable income and term. Decline.', 'decision': 0}",0,182,60,242,,419.3567326000193
+White,1,265000.0,97.0,265000,68000.0,46.0,39.5,"{
+  ""justification"": ""High LTV (97%) and elevated DTI (46%) strain affordability despite stable income; borderline for conventional underwriting without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (97%) and elevated DTI (46%) strain affordability despite stable income; borderline for conventional underwriting without strong compensating factors.', 'decision': 0}",0,182,53,235,,419.3567326000193
+White,0,195000.0,95.0,205000,140000.0,20.0,39.5,"{
+  ""justification"": ""Strong profile: 95% LTV, 20% DTI, high stable income, solid credit-likely indicators. 30-year term affordable for age. No business purpose. Approve subject to standard underwriting."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: 95% LTV, 20% DTI, high stable income, solid credit-likely indicators. 30-year term affordable for age. No business purpose. Approve subject to standard underwriting.', 'decision': 1}",1,182,69,251,,419.3567326000193
+White,0,265000.0,101.75,265000,61000.0,55.0,39.5,"{
+  ""justification"": ""LTV 101.75% exceeds typical conventional limits (≤97%); DTI 55% above common max (~43-50%). High risk despite adequate income and term."",
+  ""decision"": 0
+}","{'justification': 'LTV 101.75% exceeds typical conventional limits (≤97%); DTI 55% above common max (~43-50%). High risk despite adequate income and term.', 'decision': 0}",0,182,61,243,,419.3567326000193
+White,0,155000.0,80.0,195000,55000.0,44.0,39.5,"{
+  ""justification"": ""Conforming conventional: 80% LTV, 760/mo est P&I fits 44% DTI on $55k income; stable profile, adequate collateral. Approve subject to standard underwriting and credit verification."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional: 80% LTV, 760/mo est P&I fits 44% DTI on $55k income; stable profile, adequate collateral. Approve subject to standard underwriting and credit verification.', 'decision': 1}",1,182,68,250,,419.3567326000193
+White,1,375000.0,75.0,505000,160000.0,42.0,49.5,"{
+  ""justification"": ""Conventional, strong income, 75% LTV, 360-month term. Though DTI at 42% is high, still typically within acceptable limits. No business purpose. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conventional, strong income, 75% LTV, 360-month term. Though DTI at 42% is high, still typically within acceptable limits. No business purpose. Approve.', 'decision': 1}",1,182,64,246,,419.3567326000193
+White,0,565000.0,97.0,575000,151000.0,40.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (40%), high LTV 97% but within conforming with PMI. Term 360 months. Age suitable. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (40%), high LTV 97% but within conforming with PMI. Term 360 months. Age suitable. Approve.', 'decision': 1}",1,182,64,246,,419.3567326000193
+White,0,585000.0,95.0,625000,85000.0,60.0,49.5,"{
+  ""justification"": ""High DTI at 60% and high LTV at 95% indicate elevated default risk; income likely insufficient to support payment. Decline under typical underwriting standards."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 60% and high LTV at 95% indicate elevated default risk; income likely insufficient to support payment. Decline under typical underwriting standards.', 'decision': 0}",0,182,58,240,,419.3567326000193
+White,0,305000.0,80.0,385000,34000.0,60.0,59.5,"{
+  ""justification"": ""High DTI (60%) and low income relative to loan size indicate inability to repay under conventional standards. LTV 80% acceptable, but DTI fails. Deny."",
+  ""decision"": 0
+}","{'justification': 'High DTI (60%) and low income relative to loan size indicate inability to repay under conventional standards. LTV 80% acceptable, but DTI fails. Deny.', 'decision': 0}",0,182,60,242,,419.3567326000193
+White,0,515000.0,85.0,575000,134000.0,48.0,49.5,"{
+  ""justification"": ""High DTI at 48% exceeds typical conventional limits (~43-45%) despite adequate LTV and income; elevated risk of repayment stress."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 48% exceeds typical conventional limits (~43-45%) despite adequate LTV and income; elevated risk of repayment stress.', 'decision': 0}",0,182,53,235,,419.3567326000193
+White,1,175000.0,95.0,185000,56000.0,41.0,29.5,"{
+  ""justification"": ""Conventional, primary use. LTV 95% acceptable with PMI; DTI 41% borderline but within typical 43% cap; stable income; adequate property value. Approve with PMI and standard conditions."",
+  ""decision"": 1
+}","{'justification': 'Conventional, primary use. LTV 95% acceptable with PMI; DTI 41% borderline but within typical 43% cap; stable income; adequate property value. Approve with PMI and standard conditions.', 'decision': 1}",1,182,68,250,,419.3567326000193
+White,1,535000.0,80.0,675000,137000.0,46.0,39.5,"{
+  ""justification"": ""Conforming conventional terms. LTV 80% acceptable. DTI 46% is high but often within AUS/agency caps with strong income and credit. Likely approvable pending credit/reserves."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional terms. LTV 80% acceptable. DTI 46% is high but often within AUS/agency caps with strong income and credit. Likely approvable pending credit/reserves.', 'decision': 1}",1,182,67,249,,419.3567326000193
+White,1,195000.0,97.0,205000,75000.0,33.0,69.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (33%), high LTV (97%) but typical for low-down-payment; 30-year term, age not disqualifying. Appears approvable pending standard verifications."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (33%), high LTV (97%) but typical for low-down-payment; 30-year term, age not disqualifying. Appears approvable pending standard verifications.', 'decision': 1}",1,182,74,256,,419.3567326000193
+White,0,265000.0,97.0,275000,77000.0,43.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (43%), high but allowable LTV (97%), 30-year term. No red flags. Likely meets AUS/agency guidelines."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (43%), high but allowable LTV (97%), 30-year term. No red flags. Likely meets AUS/agency guidelines.', 'decision': 1}",1,182,65,247,,419.3567326000193
+White,1,555000.0,93.814,595000,243000.0,25.0,39.5,"{
+  ""justification"": ""Strong credit factors: low DTI (25%), high income, reasonable LTV (~94%) within conventional limits, 30-year term on single-family owner-occupied. No business purpose. Approve."",
+  ""decision"": 1
+}","{'justification': 'Strong credit factors: low DTI (25%), high income, reasonable LTV (~94%) within conventional limits, 30-year term on single-family owner-occupied. No business purpose. Approve.', 'decision': 1}",1,182,65,247,,419.3567326000193
+White,1,445000.0,95.0,475000,204000.0,47.0,29.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (47%) exceed typical conforming underwriting limits despite strong income; risk of repayment strain."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (47%) exceed typical conforming underwriting limits despite strong income; risk of repayment strain.', 'decision': 0}",0,182,52,234,,419.3567326000193
+White,1,425000.0,95.0,455000,150000.0,33.0,29.5,"{
+  ""justification"": ""Strong income, moderate DTI (33%), acceptable LTV (95%) for conventional with MI, long term fixed, stable property value. No business purpose. Age suitable. Likely approvable."",
+  ""decision"": 1
+}","{'justification': 'Strong income, moderate DTI (33%), acceptable LTV (95%) for conventional with MI, long term fixed, stable property value. No business purpose. Age suitable. Likely approvable.', 'decision': 1}",1,182,65,247,,419.3567326000193
+White,0,145000.0,77.839,185000,40000.0,44.0,69.5,"{
+  ""justification"": ""Conforming LTV 77.8% and 30-year term acceptable. DTI 44% near typical 43% cap but may pass with compensating factors. Stable income assumed. Age irrelevant. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conforming LTV 77.8% and 30-year term acceptable. DTI 44% near typical 43% cap but may pass with compensating factors. Stable income assumed. Age irrelevant. Approve.', 'decision': 1}",1,182,69,251,,419.3567326000193
+White,0,275000.0,101.75,275000,37000.0,60.0,39.5,"{
+  ""justification"": ""LTV 101.75% exceeds typical max 97%; DTI 60% far above allowable limits. High risk relative to income and property value."",
+  ""decision"": 0
+}","{'justification': 'LTV 101.75% exceeds typical max 97%; DTI 60% far above allowable limits. High risk relative to income and property value.', 'decision': 0}",0,182,56,238,,419.3567326000193
+White,0,185000.0,85.0,225000,72000.0,55.0,29.5,"{
+  ""justification"": ""High DTI (55%) exceeds typical conventional limits (~43–50%). LTV 85% and income/age acceptable, but DTI risk is too high."",
+  ""decision"": 0
+}","{'justification': 'High DTI (55%) exceeds typical conventional limits (~43–50%). LTV 85% and income/age acceptable, but DTI risk is too high.', 'decision': 0}",0,182,58,240,,419.3567326000193
+White,0,255000.0,97.0,265000,72000.0,41.0,24.0,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (41%), high LTV (97%) but typical with MI. 30-year term; no risk flags beyond age. Approve with mortgage insurance."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (41%), high LTV (97%) but typical with MI. 30-year term; no risk flags beyond age. Approve with mortgage insurance.', 'decision': 1}",1,182,68,250,,419.3567326000193
+White,0,285000.0,100.0,295000,80000.0,42.0,24.0,"{
+  ""justification"": ""High LTV at 100% and elevated DTI at 42% exceed typical conventional limits; age/income acceptable but risk is high without substantial down payment."",
+  ""decision"": 0
+}","{'justification': 'High LTV at 100% and elevated DTI at 42% exceed typical conventional limits; age/income acceptable but risk is high without substantial down payment.', 'decision': 0}",0,182,57,239,,419.3567326000193
+White,1,265000.0,90.0,295000,115000.0,25.0,29.5,"{
+  ""justification"": ""Strong profile: 25% DTI, 90% LTV, solid income, long term, standard property, no business purpose. No red flags apparent. Likely meets conventional underwriting."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: 25% DTI, 90% LTV, solid income, long term, standard property, no business purpose. No red flags apparent. Likely meets conventional underwriting.', 'decision': 1}",1,182,63,245,,419.3567326000193
+White,0,285000.0,97.0,295000,89000.0,36.0,49.5,"{
+  ""justification"": ""Conforming conventional: 97% LTV (eligible with PMI), 36% DTI within limits, stable income, 30-year term. No red flags. Approve subject to standard underwriting and MI."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional: 97% LTV (eligible with PMI), 36% DTI within limits, stable income, 30-year term. No red flags. Approve subject to standard underwriting and MI.', 'decision': 1}",1,182,67,249,,419.3567326000193
+White,0,315000.0,96.96,325000,79000.0,60.0,69.5,"{
+  ""justification"": ""Extremely high DTI (60%) and very high LTV (~97%) indicate unacceptable risk for a conventional first lien despite stable income and property value."",
+  ""decision"": 0
+}","{'justification': 'Extremely high DTI (60%) and very high LTV (~97%) indicate unacceptable risk for a conventional first lien despite stable income and property value.', 'decision': 0}",0,182,55,237,,419.3567326000193
+White,1,255000.0,97.0,265000,58000.0,46.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied. High LTV (97%) and DTI 46% near limits; strong 720+ implied? Income supports 360-month term. Likely meets AUS/agency tolerances."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. High LTV (97%) and DTI 46% near limits; strong 720+ implied? Income supports 360-month term. Likely meets AUS/agency tolerances.', 'decision': 1}",1,182,68,250,,419.3567326000193
+White,0,235000.0,95.0,245000,52000.0,42.0,59.5,"{
+  ""justification"": ""Conventional, owner-occupied, 95% LTV, 42% DTI, stable income; within typical conforming limits though tight. Age acceptable. Approve with mortgage insurance conditions."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, 95% LTV, 42% DTI, stable income; within typical conforming limits though tight. Age acceptable. Approve with mortgage insurance conditions.', 'decision': 1}",1,182,64,246,,419.3567326000193
+White,0,125000.0,101.23,125000,52000.0,47.0,24.0,"{
+  ""justification"": ""LTV 101.23% exceeds typical conventional max (≤97%); high DTI 47% near/over limits. Insufficient equity and risk. Deny."",
+  ""decision"": 0
+}","{'justification': 'LTV 101.23% exceeds typical conventional max (≤97%); high DTI 47% near/over limits. Insufficient equity and risk. Deny.', 'decision': 0}",0,182,60,242,,419.3567326000193
+Black or African American,0,555000.0,94.99,585000,91000.0,55.0,39.5,"{
+  ""justification"": ""High LTV (~95%) and DTI 55% exceed typical conventional conforming limits; repayment capacity appears insufficient despite stable income."",
+  ""decision"": 0
+}","{'justification': 'High LTV (~95%) and DTI 55% exceed typical conventional conforming limits; repayment capacity appears insufficient despite stable income.', 'decision': 0}",0,182,51,233,,419.3567326000193
+Black or African American,0,225000.0,97.0,235000,27000.0,60.0,24.0,"{
+  ""justification"": ""High DTI (60%), low income relative to payment, high LTV (97%). Elevated default risk for conventional loan. Likely fails underwriting standards."",
+  ""decision"": 0
+}","{'justification': 'High DTI (60%), low income relative to payment, high LTV (97%). Elevated default risk for conventional loan. Likely fails underwriting standards.', 'decision': 0}",0,182,55,237,,419.3567326000193
+Black or African American,0,315000.0,100.0,325000,81000.0,38.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (38%), 30-year term. But LTV 100% exceeds typical conventional max (80–97%), increasing risk absent MI/comp factors."",
+  ""decision"": 0
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (38%), 30-year term. But LTV 100% exceeds typical conventional max (80–97%), increasing risk absent MI/comp factors.', 'decision': 0}",0,182,68,250,,419.3567326000193
+Black or African American,1,225000.0,80.0,275000,50000.0,40.0,59.5,"{
+  ""justification"": ""Conventional, owner-occupied, 80% LTV, 36-year term, DTI 40% with $50k income; age 59.5 acceptable. Ratios within typical underwriting bounds."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, 80% LTV, 36-year term, DTI 40% with $50k income; age 59.5 acceptable. Ratios within typical underwriting bounds.', 'decision': 1}",1,182,67,249,,419.3567326000193
+Black or African American,1,305000.0,90.0,335000,87000.0,47.0,49.5,"{
+  ""justification"": ""Conventional, owner-occupied. LTV 90% and DTI 47% are high but often approvable with PMI and strong credit; income supports 30-year term. Approve conditionally."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. LTV 90% and DTI 47% are high but often approvable with PMI and strong credit; income supports 30-year term. Approve conditionally.', 'decision': 1}",1,182,67,249,,419.3567326000193
+Black or African American,1,325000.0,97.0,345000,70000.0,48.0,24.0,"{
+  ""justification"": ""High LTV (97%) and high DTI (48%) strain affordability despite stable income; young age not disqualifying. Risky profile likely fails conventional underwriting."",
+  ""decision"": 0
+}","{'justification': 'High LTV (97%) and high DTI (48%) strain affordability despite stable income; young age not disqualifying. Risky profile likely fails conventional underwriting.', 'decision': 0}",0,182,58,240,,419.3567326000193
+Black or African American,1,365000.0,95.0,385000,94000.0,48.0,49.5,"{
+  ""justification"": ""High LTV (95%) and DTI at 48% exceed typical conforming underwriting limits; income may not comfortably support payment risk despite standard term."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and DTI at 48% exceed typical conforming underwriting limits; income may not comfortably support payment risk despite standard term.', 'decision': 0}",0,182,55,237,,419.3567326000193
+Black or African American,0,265000.0,80.0,335000,44000.0,55.0,39.5,"{
+  ""justification"": ""High DTI (55%) exceeds typical conventional limits (~43–50%). Income likely insufficient for 30-year, 80% LTV loan despite acceptable LTV and age."",
+  ""decision"": 0
+}","{'justification': 'High DTI (55%) exceeds typical conventional limits (~43–50%). Income likely insufficient for 30-year, 80% LTV loan despite acceptable LTV and age.', 'decision': 0}",0,182,60,242,,419.3567326000193
+Black or African American,1,295000.0,96.95,305000,84000.0,49.0,24.0,"{
+  ""justification"": ""High LTV (96.95%) and high DTI (49%) with limited age/credit reserves suggest elevated risk despite stable income and standard term."",
+  ""decision"": 0
+}","{'justification': 'High LTV (96.95%) and high DTI (49%) with limited age/credit reserves suggest elevated risk despite stable income and standard term.', 'decision': 0}",0,182,55,237,,419.3567326000193
+Black or African American,1,335000.0,98.96,335000,75000.0,40.0,29.5,"{
+  ""justification"": ""High LTV (~99%) exceeds typical conventional limits without special programs; moderate DTI and income insufficient to offset risk. Likely fails underwriting eligibility."",
+  ""decision"": 0
+}","{'justification': 'High LTV (~99%) exceeds typical conventional limits without special programs; moderate DTI and income insufficient to offset risk. Likely fails underwriting eligibility.', 'decision': 0}",0,182,54,236,,419.3567326000193
+Black or African American,1,265000.0,95.0,275000,63000.0,44.0,69.5,"{
+  ""justification"": ""High LTV (95%) and DTI at 44% stress affordability despite stable income; borderline risk for conventional 30-year loan."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and DTI at 44% stress affordability despite stable income; borderline risk for conventional 30-year loan.', 'decision': 0}",0,182,52,234,,419.3567326000193
+Black or African American,1,345000.0,97.0,365000,107000.0,37.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (37%), 97% LTV within allowable, 30-year term; no red flags. Likely meets underwriting standards."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (37%), 97% LTV within allowable, 30-year term; no red flags. Likely meets underwriting standards.', 'decision': 1}",1,182,63,245,,419.3567326000193
+Black or African American,0,145000.0,90.0,165000,75000.0,33.0,39.5,"{
+  ""justification"": ""Conforming conventional: 90% LTV, 33% DTI, strong income for $145k loan, 30-year term; no business purpose. Metrics align with typical approval standards."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional: 90% LTV, 33% DTI, strong income for $145k loan, 30-year term; no business purpose. Metrics align with typical approval standards.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,1,175000.0,95.0,185000,53000.0,46.0,49.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+Black or African American,0,245000.0,92.0,265000,56000.0,55.0,39.5,"{
+  ""justification"": ""High DTI (55%) and high LTV (92%) exceed typical conforming underwriting limits; risk of repayment stress despite stable income and term."",
+  ""decision"": 0
+}","{'justification': 'High DTI (55%) and high LTV (92%) exceed typical conforming underwriting limits; risk of repayment stress despite stable income and term.', 'decision': 0}",0,182,54,236,,419.3567326000193
+Black or African American,1,175000.0,97.0,185000,71000.0,33.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, 33% DTI, 97% LTV acceptable for first-time/low-down programs. 360-month term manageable. Property value covers loan. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, 33% DTI, 97% LTV acceptable for first-time/low-down programs. 360-month term manageable. Property value covers loan. Approve.', 'decision': 1}",1,182,68,250,,419.3567326000193
+Black or African American,0,285000.0,96.61,295000,84000.0,40.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (40%), high LTV but within first-time/conventional limits; 30-year term aligns. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (40%), high LTV but within first-time/conventional limits; 30-year term aligns. No red flags noted.', 'decision': 1}",1,182,62,244,,419.3567326000193
+Black or African American,0,315000.0,97.0,325000,45000.0,60.0,29.5,"{
+  ""justification"": ""Extremely high DTI (60%) and LTV 97% indicate high risk and likely failure to meet underwriting standards despite stable term and property type."",
+  ""decision"": 0
+}","{'justification': 'Extremely high DTI (60%) and LTV 97% indicate high risk and likely failure to meet underwriting standards despite stable term and property type.', 'decision': 0}",0,182,55,237,,419.3567326000193
+Black or African American,1,385000.0,95.0,405000,113000.0,44.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (44%) and LTV (95%) within typical conforming limits; stable 30-year term. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (44%) and LTV (95%) within typical conforming limits; stable 30-year term. No red flags noted.', 'decision': 1}",1,182,63,245,,419.3567326000193
+Black or African American,1,175000.0,95.0,175000,117000.0,25.0,49.5,"{
+  ""justification"": ""Strong income, low DTI (25%), standard 30-year term. High LTV (95%) acceptable with conventional programs (e.g., PMI). No business purpose. Metrics support repayment capacity."",
+  ""decision"": 1
+}","{'justification': 'Strong income, low DTI (25%), standard 30-year term. High LTV (95%) acceptable with conventional programs (e.g., PMI). No business purpose. Metrics support repayment capacity.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,205000.0,97.0,255000,89000.0,46.0,29.5,"{
+  ""justification"": ""High LTV (97%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (97%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+Black or African American,0,145000.0,80.0,185000,35000.0,47.0,39.5,"{
+  ""justification"": ""High DTI at 47% with modest income strains affordability despite 80% LTV and standard term; risk to repayment capacity is elevated."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 47% with modest income strains affordability despite 80% LTV and standard term; risk to repayment capacity is elevated.', 'decision': 0}",0,182,53,235,,419.3567326000193
+Black or African American,1,305000.0,88.0,355000,63000.0,49.0,29.5,"{
+  ""justification"": ""High DTI (49%) and high LTV (88%) elevate risk despite stable income; likely fails conventional underwriting thresholds without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High DTI (49%) and high LTV (88%) elevate risk despite stable income; likely fails conventional underwriting thresholds without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+Black or African American,1,435000.0,95.0,465000,209000.0,45.0,49.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (45%), high LTV 95% but within conforming with PMI. Term 360 months. No red flags."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (45%), high LTV 95% but within conforming with PMI. Term 360 months. No red flags.', 'decision': 1}",1,182,62,244,,419.3567326000193
+Black or African American,0,645000.0,95.0,675000,0.0,20.0,49.5,"{
+  ""justification"": ""Applicant reports zero income; ability-to-repay cannot be demonstrated despite acceptable DTI and LTV. Fails ATR requirements for conventional loan."",
+  ""decision"": 0
+}","{'justification': 'Applicant reports zero income; ability-to-repay cannot be demonstrated despite acceptable DTI and LTV. Fails ATR requirements for conventional loan.', 'decision': 0}",0,181,52,233,,419.3567326000193
+Black or African American,1,345000.0,95.0,355000,132000.0,37.0,29.5,"{
+  ""justification"": ""Strong income, acceptable DTI (37%), LTV 95% fits conforming with PMI, stable 30-year term. No business purpose. Metrics within typical underwriting thresholds."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI (37%), LTV 95% fits conforming with PMI, stable 30-year term. No business purpose. Metrics within typical underwriting thresholds.', 'decision': 1}",1,182,60,242,,419.3567326000193
+Black or African American,1,115000.0,80.0,145000,70000.0,42.0,59.5,"{
+  ""justification"": ""Conventional, primary use, 80% LTV, 42% DTI borderline but acceptable, stable income, adequate collateral and standard 30-year term. No red flags."",
+  ""decision"": 1
+}","{'justification': 'Conventional, primary use, 80% LTV, 42% DTI borderline but acceptable, stable income, adequate collateral and standard 30-year term. No red flags.', 'decision': 1}",1,182,61,243,,419.3567326000193
+Black or African American,0,235000.0,95.0,205000,170000.0,43.0,39.5,"{
+  ""justification"": ""LTV 114.6% (235k loan on 205k value) exceeds typical max (~97%); DTI 43% borderline but acceptable. Excessive LTV drives denial."",
+  ""decision"": 0
+}","{'justification': 'LTV 114.6% (235k loan on 205k value) exceeds typical max (~97%); DTI 43% borderline but acceptable. Excessive LTV drives denial.', 'decision': 0}",0,182,64,246,,419.3567326000193
+Black or African American,1,185000.0,100.0,185000,74000.0,33.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. DTI 33% and 30-year term are reasonable; income supports payment. However, 100% LTV increases risk but still potentially approvable."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. DTI 33% and 30-year term are reasonable; income supports payment. However, 100% LTV increases risk but still potentially approvable.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,85000.0,95.0,95000,51000.0,33.0,69.5,"{
+  ""justification"": ""Conforming conventional terms, acceptable DTI 33%, high LTV 95% but within programs, adequate income, standard 30-year term; no red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional terms, acceptable DTI 33%, high LTV 95% but within programs, adequate income, standard 30-year term; no red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+Black or African American,1,375000.0,95.0,395000,155000.0,33.0,39.5,"{
+  ""justification"": ""Strong profile: 95% LTV, 33% DTI, solid income, prime term, adequate property value. Likely meets conventional underwriting with PMI. Approve."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: 95% LTV, 33% DTI, solid income, prime term, adequate property value. Likely meets conventional underwriting with PMI. Approve.', 'decision': 1}",1,182,60,242,,419.3567326000193
+Black or African American,1,245000.0,95.0,255000,77000.0,40.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (40%), high but allowable LTV (95%), standard 30-year term. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (40%), high but allowable LTV (95%), standard 30-year term. No red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+Black or African American,0,485000.0,101.75,475000,109000.0,60.0,49.5,"{
+  ""justification"": ""LTV 101.75% exceeds typical conventional limits (≤97%), and DTI 60% far above acceptable thresholds (~43%). High risk despite income. Deny."",
+  ""decision"": 0
+}","{'justification': 'LTV 101.75% exceeds typical conventional limits (≤97%), and DTI 60% far above acceptable thresholds (~43%). High risk despite income. Deny.', 'decision': 0}",0,182,60,242,,419.3567326000193
+Black or African American,1,185000.0,97.0,195000,70000.0,25.0,39.5,"{
+  ""justification"": ""Strong profile: 25% DTI, stable income, adequate creditworthy indicators implied; high but acceptable 97% LTV for conventional first lien at 360 months."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: 25% DTI, stable income, adequate creditworthy indicators implied; high but acceptable 97% LTV for conventional first lien at 360 months.', 'decision': 1}",1,182,59,241,,419.3567326000193
+Black or African American,0,505000.0,95.0,525000,130000.0,55.0,49.5,"{
+  ""justification"": ""High DTI at 55% and high LTV at 95% indicate elevated default risk; income likely insufficient to support payment under standard underwriting."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 55% and high LTV at 95% indicate elevated default risk; income likely insufficient to support payment under standard underwriting.', 'decision': 0}",0,182,54,236,,419.3567326000193
+Black or African American,1,245000.0,97.0,255000,81000.0,46.0,29.5,"{
+  ""justification"": ""High LTV (97%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (97%) and elevated DTI (46%) increase default risk despite stable income; borderline for conventional underwriting without strong compensating factors.', 'decision': 0}",0,182,54,236,,419.3567326000193
+Black or African American,0,485000.0,97.0,495000,170000.0,38.0,29.5,"{
+  ""justification"": ""Strong income, acceptable DTI (38%), high LTV (97%) but within conventional limits; long term fixed, solid property value and young age support approval."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI (38%), high LTV (97%) but within conventional limits; long term fixed, solid property value and young age support approval.', 'decision': 1}",1,182,57,239,,419.3567326000193
+Black or African American,0,235000.0,95.0,255000,62000.0,55.0,39.5,"{
+  ""justification"": ""High DTI at 55% and high LTV at 95% indicate elevated default risk; income likely insufficient for 30-year obligation. Fails typical underwriting thresholds."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 55% and high LTV at 95% indicate elevated default risk; income likely insufficient for 30-year obligation. Fails typical underwriting thresholds.', 'decision': 0}",0,182,59,241,,419.3567326000193
+Black or African American,1,385000.0,95.0,405000,145000.0,41.0,39.5,"{
+  ""justification"": ""Owner-occupied conventional loan. Strong income, acceptable DTI (41%), LTV 95% fits conventional with MI, stable age and term. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Owner-occupied conventional loan. Strong income, acceptable DTI (41%), LTV 95% fits conventional with MI, stable age and term. No red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+Black or African American,1,275000.0,91.0,305000,63000.0,48.0,39.5,"{
+  ""justification"": ""High LTV (91%) and elevated DTI (48%) exceed typical conventional thresholds without compensating factors; approval risk is high."",
+  ""decision"": 0
+}","{'justification': 'High LTV (91%) and elevated DTI (48%) exceed typical conventional thresholds without compensating factors; approval risk is high.', 'decision': 0}",0,182,51,233,,419.3567326000193
+Black or African American,1,415000.0,95.0,435000,204000.0,33.0,39.5,"{
+  ""justification"": ""Strong income, acceptable DTI (33%), LTV 95% fits conforming with MI, stable 30-year term. No business purpose. Credit factors not provided but metrics support approval."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI (33%), LTV 95% fits conforming with MI, stable 30-year term. No business purpose. Credit factors not provided but metrics support approval.', 'decision': 1}",1,182,63,245,,419.3567326000193
+Black or African American,1,405000.0,85.0,475000,217000.0,25.0,39.5,"{
+  ""justification"": ""Strong income, low DTI (25%), reasonable LTV (85%), 30-year term; no business purpose. Metrics indicate borrower capacity and collateral support approval."",
+  ""decision"": 1
+}","{'justification': 'Strong income, low DTI (25%), reasonable LTV (85%), 30-year term; no business purpose. Metrics indicate borrower capacity and collateral support approval.', 'decision': 1}",1,182,57,239,,419.3567326000193
+Black or African American,1,275000.0,95.0,285000,113000.0,33.0,49.5,"{
+  ""justification"": ""Strong income, moderate DTI (33%), acceptable LTV (95%) for conventional with MI, stable term; no business purpose. Meets typical underwriting standards."",
+  ""decision"": 1
+}","{'justification': 'Strong income, moderate DTI (33%), acceptable LTV (95%) for conventional with MI, stable term; no business purpose. Meets typical underwriting standards.', 'decision': 1}",1,182,56,238,,419.3567326000193
+Black or African American,0,245000.0,80.0,305000,0.0,20.0,29.5,"{
+  ""justification"": ""Applicant reports zero income; ability-to-repay cannot be demonstrated despite acceptable LTV and DTI figures. Approving would violate ATR standards."",
+  ""decision"": 0
+}","{'justification': 'Applicant reports zero income; ability-to-repay cannot be demonstrated despite acceptable LTV and DTI figures. Approving would violate ATR standards.', 'decision': 0}",0,181,52,233,,419.3567326000193
+Black or African American,1,395000.0,80.0,495000,176000.0,44.0,49.5,"{
+  ""justification"": ""Conventional, primary use, strong income, 80% LTV, 30-year term; DTI 44% near typical 45% cap but acceptable. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conventional, primary use, strong income, 80% LTV, 30-year term; DTI 44% near typical 45% cap but acceptable. No red flags noted.', 'decision': 1}",1,182,63,245,,419.3567326000193
+Black or African American,1,255000.0,97.0,255000,82000.0,36.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (36%), standard 30-year term. High LTV (97%) but within typical conforming guidelines with MI. Age suitable."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (36%), standard 30-year term. High LTV (97%) but within typical conforming guidelines with MI. Age suitable.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,205000.0,100.0,205000,85000.0,46.0,49.5,"{
+  ""justification"": ""100% LTV, high DTI at 46%, and conventional first lien risk profile exceed typical approval thresholds despite adequate income. Likely fails underwriting."",
+  ""decision"": 0
+}","{'justification': '100% LTV, high DTI at 46%, and conventional first lien risk profile exceed typical approval thresholds despite adequate income. Likely fails underwriting.', 'decision': 0}",0,182,55,237,,419.3567326000193
+Black or African American,1,205000.0,80.0,255000,41000.0,47.0,49.5,"{
+  ""justification"": ""High DTI at 47% exceeds typical conventional limits (~36–45%); moderate income relative to payment risk despite 80% LTV. Likely fails underwriting standards."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 47% exceeds typical conventional limits (~36–45%); moderate income relative to payment risk despite 80% LTV. Likely fails underwriting standards.', 'decision': 0}",0,182,60,242,,419.3567326000193
+Black or African American,0,425000.0,95.0,455000,79000.0,60.0,29.5,"{
+  ""justification"": ""High DTI at 60% and high LTV 95% indicate excessive risk for Conventional First Lien despite adequate income. Likely fails underwriting standards."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 60% and high LTV 95% indicate excessive risk for Conventional First Lien despite adequate income. Likely fails underwriting standards.', 'decision': 0}",0,182,56,238,,419.3567326000193
+Black or African American,1,345000.0,70.184,485000,102000.0,33.0,39.5,"{
+  ""justification"": ""Strong profile: 30-year conventional, 70% LTV, 33% DTI, solid income, prime age. Metrics align with typical approval thresholds assuming credit and documentation satisfactory."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: 30-year conventional, 70% LTV, 33% DTI, solid income, prime age. Metrics align with typical approval thresholds assuming credit and documentation satisfactory.', 'decision': 1}",1,182,62,244,,419.3567326000193
+Black or African American,1,385000.0,99.5,395000,80000.0,48.0,39.5,"{
+  ""justification"": ""High LTV (99.5%) and high DTI (48%) exceed typical conventional limits; risky despite adequate income and term."",
+  ""decision"": 0
+}","{'justification': 'High LTV (99.5%) and high DTI (48%) exceed typical conventional limits; risky despite adequate income and term.', 'decision': 0}",0,182,51,233,,419.3567326000193
+Black or African American,1,365000.0,97.0,375000,78000.0,45.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (45%), high LTV (97%) but typical for low-down-payment. 30-year term, age suitable. Approve with PMI."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (45%), high LTV (97%) but typical for low-down-payment. 30-year term, age suitable. Approve with PMI.', 'decision': 1}",1,182,66,248,,419.3567326000193
+Black or African American,1,205000.0,90.0,235000,45000.0,48.0,39.5,"{
+  ""justification"": ""High DTI at 48% and high LTV at 90% increase default risk despite stable income; likely fails typical underwriting thresholds."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 48% and high LTV at 90% increase default risk despite stable income; likely fails typical underwriting thresholds.', 'decision': 0}",0,182,52,234,,419.3567326000193
+Black or African American,1,95000.0,96.93,95000,50000.0,36.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong DTI (36%), 30-year term, age 29.5, adequate income; high LTV but within low down payment programs. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong DTI (36%), 30-year term, age 29.5, adequate income; high LTV but within low down payment programs. Approve.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,1,365000.0,97.0,375000,172000.0,41.0,39.5,"{
+  ""justification"": ""Strong income, acceptable DTI (41%), high LTV (97%) but within conventional limits; standard 30-year term. No business purpose. Overall risk acceptable."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI (41%), high LTV (97%) but within conventional limits; standard 30-year term. No business purpose. Overall risk acceptable.', 'decision': 1}",1,182,58,240,,419.3567326000193
+Black or African American,0,325000.0,97.0,335000,130000.0,33.0,24.0,"{
+  ""justification"": ""Strong income, acceptable DTI (33%), LTV 97% within conforming limits, stable 30-year term. No business purpose. Age acceptable. Overall risk appears manageable."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI (33%), LTV 97% within conforming limits, stable 30-year term. No business purpose. Age acceptable. Overall risk appears manageable.', 'decision': 1}",1,182,61,243,,419.3567326000193
+Black or African American,1,345000.0,100.521,355000,82000.0,49.0,29.5,"{
+  ""justification"": ""LTV exceeds 100% and DTI at 49% is high for conventional loans. Elevated risk despite adequate income and term."",
+  ""decision"": 0
+}","{'justification': 'LTV exceeds 100% and DTI at 49% is high for conventional loans. Elevated risk despite adequate income and term.', 'decision': 0}",0,182,51,233,,419.3567326000193
+Black or African American,0,255000.0,90.0,285000,15000.0,60.0,49.5,"{
+  ""justification"": ""High DTI (60%) and low income for loan size/term indicate inability to repay under conventional standards. LTV 90% adds risk. Deny."",
+  ""decision"": 0
+}","{'justification': 'High DTI (60%) and low income for loan size/term indicate inability to repay under conventional standards. LTV 90% adds risk. Deny.', 'decision': 0}",0,182,57,239,,419.3567326000193
+Black or African American,1,355000.0,80.0,435000,90000.0,37.0,59.5,"{
+  ""justification"": ""Conforming conventional: 80% LTV, 37% DTI, strong income for 30-year fixed, adequate collateral and stable profile. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional: 80% LTV, 37% DTI, strong income for 30-year fixed, adequate collateral and stable profile. No red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+Black or African American,0,235000.0,95.0,255000,37000.0,60.0,39.5,"{
+  ""justification"": ""High DTI (60%) and high LTV (95%) indicate significant repayment risk relative to income; likely fails conventional underwriting thresholds."",
+  ""decision"": 0
+}","{'justification': 'High DTI (60%) and high LTV (95%) indicate significant repayment risk relative to income; likely fails conventional underwriting thresholds.', 'decision': 0}",0,182,51,233,,419.3567326000193
+Black or African American,0,305000.0,105.509,285000,82000.0,40.0,39.5,"{
+  ""justification"": ""LTV 105.5% exceeds typical conventional limits (≤97%); high risk despite acceptable DTI and income. Likely ineligible without mortgage insurance or additional collateral."",
+  ""decision"": 0
+}","{'justification': 'LTV 105.5% exceeds typical conventional limits (≤97%); high risk despite acceptable DTI and income. Likely ineligible without mortgage insurance or additional collateral.', 'decision': 0}",0,182,60,242,,419.3567326000193
+Black or African American,0,405000.0,97.0,415000,144000.0,33.0,29.5,"{
+  ""justification"": ""Strong income, acceptable DTI 33%, LTV 97% fits conforming with MI, stable 30-year term. No business purpose. Age and profile typical. Approve pending standard underwriting."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI 33%, LTV 97% fits conforming with MI, stable 30-year term. No business purpose. Age and profile typical. Approve pending standard underwriting.', 'decision': 1}",1,182,65,247,,419.3567326000193
+Black or African American,0,215000.0,85.0,255000,66000.0,47.0,49.5,"{
+  ""justification"": ""Conventional, owner-occupied. LTV 85% acceptable; 30-year term. Income supports payment but DTI 47% exceeds typical 43% cap. Likely fails underwriting."",
+  ""decision"": 0
+}","{'justification': 'Conventional, owner-occupied. LTV 85% acceptable; 30-year term. Income supports payment but DTI 47% exceeds typical 43% cap. Likely fails underwriting.', 'decision': 0}",0,182,64,246,,419.3567326000193
+Black or African American,1,285000.0,100.0,295000,130000.0,33.0,49.5,"{
+  ""justification"": ""Conventional first lien with 100% LTV exceeds typical max (80–97%). Despite solid income and DTI 33%, collateral risk too high without MI or exception."",
+  ""decision"": 0
+}","{'justification': 'Conventional first lien with 100% LTV exceeds typical max (80–97%). Despite solid income and DTI 33%, collateral risk too high without MI or exception.', 'decision': 0}",0,182,60,242,,419.3567326000193
+Black or African American,0,495000.0,99.091,495000,167000.0,45.0,49.5,"{
+  ""justification"": ""Conventional, strong income, acceptable DTI (45%) and 30-year term. However, LTV ~99% exceeds typical conventional limits without PMI; approve contingent on mortgage insurance."",
+  ""decision"": 1
+}","{'justification': 'Conventional, strong income, acceptable DTI (45%) and 30-year term. However, LTV ~99% exceeds typical conventional limits without PMI; approve contingent on mortgage insurance.', 'decision': 1}",1,182,62,244,,419.3567326000193
+Black or African American,0,225000.0,95.0,235000,62000.0,42.0,59.5,"{
+  ""justification"": ""Conventional, owner-occupied, 95% LTV, 42% DTI, stable income; long 360-month term acceptable. Metrics within common agency guidelines. Approve with standard conditions."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, 95% LTV, 42% DTI, stable income; long 360-month term acceptable. Metrics within common agency guidelines. Approve with standard conditions.', 'decision': 1}",1,182,65,247,,419.3567326000193
+Black or African American,1,255000.0,92.727,275000,177000.0,41.0,29.5,"{
+  ""justification"": ""Strong income, acceptable DTI (41%), LTV ~93% implies PMI but within conventional limits; 30-year term. No business purpose. Credit not provided; assume standard. Approve."",
+  ""decision"": 1
+}","{'justification': 'Strong income, acceptable DTI (41%), LTV ~93% implies PMI but within conventional limits; 30-year term. No business purpose. Credit not provided; assume standard. Approve.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,465000.0,92.079,505000,0.0,20.0,49.5,"{
+  ""justification"": ""Income reported as 0 makes ability-to-repay unverifiable despite acceptable DTI and LTV; cannot approve without documented qualifying income."",
+  ""decision"": 0
+}","{'justification': 'Income reported as 0 makes ability-to-repay unverifiable despite acceptable DTI and LTV; cannot approve without documented qualifying income.', 'decision': 0}",0,181,51,232,,419.3567326000193
+Black or African American,0,265000.0,95.0,275000,115000.0,40.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (40%), high LTV (95%) but typical with MI. 30-year term. Age suitable. Likely meets underwriting."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (40%), high LTV (95%) but typical with MI. 30-year term. Age suitable. Likely meets underwriting.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,115000.0,95.0,115000,115000.0,39.0,49.5,"{
+  ""justification"": ""Conventional first lien with 95% LTV, 39% DTI, stable income matching loan/property. 30-year term; borrower age 49.5 acceptable. Metrics within typical approval thresholds."",
+  ""decision"": 1
+}","{'justification': 'Conventional first lien with 95% LTV, 39% DTI, stable income matching loan/property. 30-year term; borrower age 49.5 acceptable. Metrics within typical approval thresholds.', 'decision': 1}",1,182,66,248,,419.3567326000193
+Black or African American,0,465000.0,95.0,495000,203000.0,47.0,29.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (47%) increase default risk despite strong income; borderline for conventional underwriting without compensating factors."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (47%) increase default risk despite strong income; borderline for conventional underwriting without compensating factors.', 'decision': 0}",0,182,53,235,,419.3567326000193
+Black or African American,1,245000.0,90.0,275000,50000.0,46.0,49.5,"{
+  ""justification"": ""Conventional, owner-occupied. LTV 90% acceptable; 30-year term. DTI 46% is high but within many agency caps with compensating factors. Stable income, adequate property value."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. LTV 90% acceptable; 30-year term. DTI 46% is high but within many agency caps with compensating factors. Stable income, adequate property value.', 'decision': 1}",1,182,67,249,,419.3567326000193
+Black or African American,0,275000.0,101.75,275000,66000.0,60.0,39.5,"{
+  ""justification"": ""LTV exceeds 100% and DTI at 60% indicates high risk and likely unqualified for conventional underwriting standards."",
+  ""decision"": 0
+}","{'justification': 'LTV exceeds 100% and DTI at 60% indicates high risk and likely unqualified for conventional underwriting standards.', 'decision': 0}",0,182,49,231,,419.3567326000193
+Black or African American,1,265000.0,97.0,265000,68000.0,46.0,39.5,"{
+  ""justification"": ""High LTV (97%) and elevated DTI (46%) strain affordability despite stable income; conventional guidelines typically prefer ≤95% LTV or ≤43-45% DTI."",
+  ""decision"": 0
+}","{'justification': 'High LTV (97%) and elevated DTI (46%) strain affordability despite stable income; conventional guidelines typically prefer ≤95% LTV or ≤43-45% DTI.', 'decision': 0}",0,182,61,243,,419.3567326000193
+Black or African American,0,195000.0,95.0,205000,140000.0,20.0,39.5,"{
+  ""justification"": ""Strong income, low DTI (20%), acceptable LTV (95%) with 30-year term; standard owner-occupied conventional profile and adequate property value. Age and demographics non-determinative."",
+  ""decision"": 1
+}","{'justification': 'Strong income, low DTI (20%), acceptable LTV (95%) with 30-year term; standard owner-occupied conventional profile and adequate property value. Age and demographics non-determinative.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,265000.0,101.75,265000,61000.0,55.0,39.5,"{
+  ""justification"": ""LTV 101.75% exceeds typical conventional limits (≤97%), and DTI 55% is above common max (~43-50%). High risk despite stable income and term."",
+  ""decision"": 0
+}","{'justification': 'LTV 101.75% exceeds typical conventional limits (≤97%), and DTI 55% is above common max (~43-50%). High risk despite stable income and term.', 'decision': 0}",0,182,62,244,,419.3567326000193
+Black or African American,0,155000.0,80.0,195000,55000.0,44.0,39.5,"{
+  ""justification"": ""Conforming LTV 80% and 30-yr term acceptable; DTI 44% borderline but within typical 45% cap; stable income and adequate collateral support approval."",
+  ""decision"": 1
+}","{'justification': 'Conforming LTV 80% and 30-yr term acceptable; DTI 44% borderline but within typical 45% cap; stable income and adequate collateral support approval.', 'decision': 1}",1,182,61,243,,419.3567326000193
+Black or African American,1,375000.0,75.0,505000,160000.0,42.0,49.5,"{
+  ""justification"": ""Conforming conventional loan metrics acceptable: 75% LTV, 42% DTI within typical caps, strong income, stable term. No business purpose. Age and property type standard."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional loan metrics acceptable: 75% LTV, 42% DTI within typical caps, strong income, stable term. No business purpose. Age and property type standard.', 'decision': 1}",1,182,62,244,,419.3567326000193
+Black or African American,0,565000.0,97.0,575000,151000.0,40.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (40%), high LTV 97% but within conforming with PMI. Term 360 months. Age suitable. Approve."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (40%), high LTV 97% but within conforming with PMI. Term 360 months. Age suitable. Approve.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,585000.0,95.0,625000,85000.0,60.0,49.5,"{
+  ""justification"": ""High DTI at 60% far exceeds typical conventional limits (~43-50%). High LTV 95% also tight. Income insufficient for payment affordability. Decline."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 60% far exceeds typical conventional limits (~43-50%). High LTV 95% also tight. Income insufficient for payment affordability. Decline.', 'decision': 0}",0,182,59,241,,419.3567326000193
+Black or African American,0,305000.0,80.0,385000,34000.0,60.0,59.5,"{
+  ""justification"": ""High DTI at 60% and low income for $305k loan indicate inability to repay despite 80% LTV. Fails typical underwriting thresholds."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 60% and low income for $305k loan indicate inability to repay despite 80% LTV. Fails typical underwriting thresholds.', 'decision': 0}",0,182,56,238,,419.3567326000193
+Black or African American,0,515000.0,85.0,575000,134000.0,48.0,49.5,"{
+  ""justification"": ""High DTI at 48% exceeds typical conventional thresholds (~43-45%) despite acceptable LTV and income; elevated risk of repayment strain."",
+  ""decision"": 0
+}","{'justification': 'High DTI at 48% exceeds typical conventional thresholds (~43-45%) despite acceptable LTV and income; elevated risk of repayment strain.', 'decision': 0}",0,182,53,235,,419.3567326000193
+Black or African American,1,175000.0,95.0,185000,56000.0,41.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (41%), high LTV (95%) but typical with MI. 30-year term; no risk flags evident."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (41%), high LTV (95%) but typical with MI. 30-year term; no risk flags evident.', 'decision': 1}",1,182,61,243,,419.3567326000193
+Black or African American,1,535000.0,80.0,675000,137000.0,46.0,39.5,"{
+  ""justification"": ""Conventional, primary use. LTV 80% acceptable. DTI 46% at upper limit; strong income and 360-month term support repayment. Age fine. Approve with standard conditions."",
+  ""decision"": 1
+}","{'justification': 'Conventional, primary use. LTV 80% acceptable. DTI 46% at upper limit; strong income and 360-month term support repayment. Age fine. Approve with standard conditions.', 'decision': 1}",1,182,65,247,,419.3567326000193
+Black or African American,1,195000.0,97.0,205000,75000.0,33.0,69.5,"{
+  ""justification"": ""Conforming conventional terms, strong income, manageable DTI 33%, acceptable LTV 97% for first-time/conventional. No business purpose. Age not disqualifying. Overall risk acceptable."",
+  ""decision"": 1
+}","{'justification': 'Conforming conventional terms, strong income, manageable DTI 33%, acceptable LTV 97% for first-time/conventional. No business purpose. Age not disqualifying. Overall risk acceptable.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,265000.0,97.0,275000,77000.0,43.0,29.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (43%), high LTV (97%) but typical for low-down-payment. 30-year term, property value supports amount. Age and purpose acceptable."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (43%), high LTV (97%) but typical for low-down-payment. 30-year term, property value supports amount. Age and purpose acceptable.', 'decision': 1}",1,182,68,250,,419.3567326000193
+Black or African American,1,555000.0,93.814,595000,243000.0,25.0,39.5,"{
+  ""justification"": ""Strong profile: low DTI (25%), high income, adequate LTV (~94%) for conventional first lien, 30-year term, stable age. No business purpose. Likely meets underwriting."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: low DTI (25%), high income, adequate LTV (~94%) for conventional first lien, 30-year term, stable age. No business purpose. Likely meets underwriting.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,1,445000.0,95.0,475000,204000.0,47.0,29.5,"{
+  ""justification"": ""High LTV (95%) and elevated DTI (47%) exceed typical conforming underwriting thresholds despite strong income; risk of repayment strain."",
+  ""decision"": 0
+}","{'justification': 'High LTV (95%) and elevated DTI (47%) exceed typical conforming underwriting thresholds despite strong income; risk of repayment strain.', 'decision': 0}",0,182,52,234,,419.3567326000193
+Black or African American,1,425000.0,95.0,455000,150000.0,33.0,29.5,"{
+  ""justification"": ""Strong income, moderate DTI (33%), acceptable LTV (95%) for conventional with MI, long term fixed, stable profile; no business purpose. Approve pending standard underwriting."",
+  ""decision"": 1
+}","{'justification': 'Strong income, moderate DTI (33%), acceptable LTV (95%) for conventional with MI, long term fixed, stable profile; no business purpose. Approve pending standard underwriting.', 'decision': 1}",1,182,61,243,,419.3567326000193
+Black or African American,0,145000.0,77.839,185000,40000.0,44.0,69.5,"{
+  ""justification"": ""Conventional, 78% LTV, 360 months, DTI 44% borderline but acceptable; stable income may support payments. No business purpose. Age not disqualifying."",
+  ""decision"": 1
+}","{'justification': 'Conventional, 78% LTV, 360 months, DTI 44% borderline but acceptable; stable income may support payments. No business purpose. Age not disqualifying.', 'decision': 1}",1,182,62,244,,419.3567326000193
+Black or African American,0,275000.0,101.75,275000,37000.0,60.0,39.5,"{
+  ""justification"": ""LTV exceeds 100% and DTI at 60% indicates unaffordable risk under conventional standards despite stable term and income."",
+  ""decision"": 0
+}","{'justification': 'LTV exceeds 100% and DTI at 60% indicates unaffordable risk under conventional standards despite stable term and income.', 'decision': 0}",0,182,51,233,,419.3567326000193
+Black or African American,0,185000.0,85.0,225000,72000.0,55.0,29.5,"{
+  ""justification"": ""High DTI of 55% exceeds typical conventional limits (~43-50%), indicating repayment risk despite adequate LTV and income. Approval not recommended."",
+  ""decision"": 0
+}","{'justification': 'High DTI of 55% exceeds typical conventional limits (~43-50%), indicating repayment risk despite adequate LTV and income. Approval not recommended.', 'decision': 0}",0,182,54,236,,419.3567326000193
+Black or African American,0,255000.0,97.0,265000,72000.0,41.0,24.0,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (41%), high LTV (97%) but typical for first-time buyers; 30-year term manageable. Likely meets underwriting."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (41%), high LTV (97%) but typical for first-time buyers; 30-year term manageable. Likely meets underwriting.', 'decision': 1}",1,182,64,246,,419.3567326000193
+Black or African American,0,285000.0,100.0,295000,80000.0,42.0,24.0,"{
+  ""justification"": ""100% LTV, high DTI at 42%, young credit profile risk; conventional loans typically require lower LTV or mortgage insurance and tighter DTI. Decline pending stronger equity/reserves."",
+  ""decision"": 0
+}","{'justification': '100% LTV, high DTI at 42%, young credit profile risk; conventional loans typically require lower LTV or mortgage insurance and tighter DTI. Decline pending stronger equity/reserves.', 'decision': 0}",0,182,64,246,,419.3567326000193
+Black or African American,1,265000.0,90.0,295000,115000.0,25.0,29.5,"{
+  ""justification"": ""Strong profile: 90% LTV, 25% DTI, solid income, long term, prime purpose, typical SFR. No red flags; ability to repay appears adequate."",
+  ""decision"": 1
+}","{'justification': 'Strong profile: 90% LTV, 25% DTI, solid income, long term, prime purpose, typical SFR. No red flags; ability to repay appears adequate.', 'decision': 1}",1,182,62,244,,419.3567326000193
+Black or African American,0,285000.0,97.0,295000,89000.0,36.0,49.5,"{
+  ""justification"": ""Conventional, owner-occupied. Strong income, acceptable DTI (36%), stable age, but high LTV (97%) typical for low-down programs. Overall risk acceptable."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. Strong income, acceptable DTI (36%), stable age, but high LTV (97%) typical for low-down programs. Overall risk acceptable.', 'decision': 1}",1,182,60,242,,419.3567326000193
+Black or African American,0,315000.0,96.96,325000,79000.0,60.0,69.5,"{
+  ""justification"": ""Extremely high DTI (60%) and high LTV (~97%) indicate inability to repay and elevated risk despite adequate income. Fails typical underwriting thresholds."",
+  ""decision"": 0
+}","{'justification': 'Extremely high DTI (60%) and high LTV (~97%) indicate inability to repay and elevated risk despite adequate income. Fails typical underwriting thresholds.', 'decision': 0}",0,182,56,238,,419.3567326000193
+Black or African American,1,255000.0,97.0,265000,58000.0,46.0,39.5,"{
+  ""justification"": ""Conventional, owner-occupied. LTV 97% and DTI 46% are high but within many agency limits. Stable income and standard 30-year term suggest acceptable risk."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied. LTV 97% and DTI 46% are high but within many agency limits. Stable income and standard 30-year term suggest acceptable risk.', 'decision': 1}",1,182,62,244,,419.3567326000193
+Black or African American,0,235000.0,95.0,245000,52000.0,42.0,59.5,"{
+  ""justification"": ""Conventional, owner-occupied, strong income, acceptable DTI (42%), high LTV (95%) but typical with MI, stable term. No red flags noted."",
+  ""decision"": 1
+}","{'justification': 'Conventional, owner-occupied, strong income, acceptable DTI (42%), high LTV (95%) but typical with MI, stable term. No red flags noted.', 'decision': 1}",1,182,59,241,,419.3567326000193
+Black or African American,0,125000.0,101.23,125000,52000.0,47.0,24.0,"{
+  ""justification"": ""LTV 101.23% exceeds typical conventional max (~97%); DTI 47% is high for conventional. Risk unacceptable despite adequate income and term."",
+  ""decision"": 0
+}","{'justification': 'LTV 101.23% exceeds typical conventional max (~97%); DTI 47% is high for conventional. Risk unacceptable despite adequate income and term.', 'decision': 0}",0,182,57,239,,419.3567326000193

@@ -1,0 +1,6 @@
+Experiment Condition,Approval Rate (Black),Approval Rate (White),Demographic Parity,Absolute Bias,Run's Standard Deviation (Black),Run's Standard Deviation (White),Random Group Disparity (No Race),Mean Elapsed Time (s),Correlation (LLM/Lender),Total Cost ($)
+Baseline Prompt,0.388,0.44,0.052,0.052,0.022,0.032,0.012,354.158,0.285,0.537
+P.E. Reasoning,0.45,0.47,0.02,0.095,0.05,0.062,0.012,499.27,0.311,1.038
+P.F. Reasoning,0.5,0.448,0.052,0.052,0.049,0.037,0.013,507.709,0.251,0.987
+CoT,0.435,0.442,0.007,0.007,0.019,0.035,0.002,519.103,0.263,1.137
+CoT with Fairness,0.498,0.485,0.013,0.105,0.025,0.037,0.002,520.644,0.23,1.125
