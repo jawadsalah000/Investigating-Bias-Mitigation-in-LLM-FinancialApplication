@@ -6,9 +6,9 @@ This repository contains all code, datasets, and results accompanying the MSc di
 > Jawad Salah, MSc Venture Capital & Private Equity with FinTech, University College London (2025)
 > Supervised by Prof. Ramin Okhrati (UCL) & Andrea Bassani (NatWest Group PLC).
 
----
 
-## 📑 Overview
+
+## Overview
 
 The dissertation evaluates whether latest-generation Large Language Models (LLMs) exhibit **social biases** in financial decision making tasks, before investigation various methods to mitigate that bias. Using **mortgage underwriting** as a testbed, experiments were run on GPT-5, GPT-5 Nano, and Gemini 2.5 Flash Lite with multiple **prompt-engineering strategies**.
 
@@ -19,9 +19,9 @@ Two fairness metrics were used:
 
 The project demonstrates that **Chain-of-Thought (CoT) prompting** was the most effective mitigation method, though effectiveness was model-dependent and sometimes came at a computational cost.
 
----
 
-## 📂 Repository Structure
+
+## Repository Structure
 
 ```
 Repository Root
@@ -60,9 +60,9 @@ Repository Root
 └── README.md
 ```
 
----
 
-## ⚙️ How to Use
+
+## How to Use
 
 1. Clone the repo:
 
@@ -78,18 +78,18 @@ Repository Root
 3. Explore the Jupyter Notebooks in the `Notebooks/` folder for step-by-step replication of experiments.
 4. Use `scripts/prompts.py` to access the exact prompts used (baseline, reasoning, CoT, fairness phrasing).
 
----
 
-## 📊 Key Contributions
+
+## Key Contributions
 
 * Introduced **Absolute Approval Bias (AAB)** metric to detect race-sensitivity bias.
 * Ran **systematic audits on the GPT-5 series and Gemini 2.5**.
 * Found **CoT prompting most effective** in reducing disparities across models using group-level bias metrics.
 * Released full datasets, notebooks, and result files for **reproducibility and transparency**.
 
----
 
-## 📖 Citation
+
+## Citation
 
 If you use this work, please cite:
 
@@ -98,6 +98,4 @@ Salah, J. (2025). Investigating Bias Mitigation in Large Language Models for Cla
 in Financial Decision-Making. MSc Dissertation, University College London.
 ```
 
----
 
-Do you want me to also add a **“Results at a Glance” section** in the README with your key tables/figures (like GPT-5 vs Nano vs Gemini baseline bias outcomes) so people see findings instantly?
