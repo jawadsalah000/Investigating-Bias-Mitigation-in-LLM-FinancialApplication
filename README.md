@@ -1,101 +1,122 @@
 # Investigating Bias Mitigation in Large Language Models for Financial Decision-Making
 
-This repository contains all code, datasets, and results accompanying the MSc dissertation:
+This repository accompanies the MSc dissertation:
 
-> **“Investigating Bias Mitigation in Large Language Models for Classification Tasks in Financial Decision-Making”**
-> Jawad Salah, MSc Venture Capital & Private Equity with FinTech, University College London (2025)
-> Supervised by Prof. Ramin Okhrati (UCL) & Andrea Bassani (NatWest Group PLC).
+> **“Investigating Bias Mitigation in Large Language Models for Classification Tasks in Financial Decision-Making”**  
+> Jawad Salah, MSc Venture Capital & Private Equity with FinTech, University College London (2025)  
+> Supervised by Prof. Ramin Okhrati (UCL) & Andrea Bassani (NatWest Group PLC)
 
+The project analyses whether state-of-the-art LLMs exhibit social bias when making mortgage approval decisions, and benchmarkes prompt-engineering strategies for mitigation. GPT‑5, GPT‑5 Nano, and Gemini 2.5 Flash Lite were evaluated using fairness metrics including **Demographic Approval Parity (DAP)** and the novel **Absolute Approval Bias (AAB)** introduced in the dissertation.
 
+---
 
-## Overview
-
-The dissertation evaluates whether latest-generation Large Language Models (LLMs) exhibit **social biases** in financial decision making tasks, before investigation various methods to mitigate that bias. Using **mortgage underwriting** as a testbed, experiments were run on GPT-5, GPT-5 Nano, and Gemini 2.5 Flash Lite with multiple **prompt-engineering strategies**.
-
-Two fairness metrics were used:
-
-* **Demographic Approval Parity (DAP)** – group-level disparity.
-* **Absolute Approval Bias (AAB)** – model sensitivity to explicit race labels (introduced in this study).
-
-The project demonstrates that **Chain-of-Thought (CoT) prompting** was the most effective mitigation method, though effectiveness was model-dependent and sometimes came at a computational cost.
-
-
-
-## Repository Structure
+## Repository Layout
 
 ```
-Repository Root
-│
-├── Dataset
-│   ├── Input
-│   │   ├── Boot-Strapped Synthetic Dataset.xlsx
-│   │   ├── Counterfactual Synthetic Dataset 1.xlsx
-│   │   ├── Counterfactual Synthetic Dataset 2.xlsx
-│   │   └── Pre-processed Dataset.xls
-│   │
-│   └── Results
-│       ├── Bias Identification and Mitigation Tests
-│       │   ├── GPT-5 Nano
-│       │   │   └── Reasoning vs Bias Experiment
-│       │   ├── GPT-5 / Minimal Reasoning
-│       │   └── Gemini 2.5 Flash Lite
-│       │
-│       ├── Categorical vs. Continuous Experiment
-│       ├── Proxies Experiment
-│       └── Temperature Study
-│
-├── Notebooks
-│   ├── 1) Data Pre-Processing and Exploration.ipynb
-│   ├── 2) Counterfactual Input Testing.ipynb
-│   ├── 3) Bias Identification Experiment.ipynb
-│   ├── 4) Zero Shot Prompt Engineering for Bias Mitigation.ipynb
-│   ├── 5.1) GPT 5 Results and Analysis.ipynb
-│   ├── 5.2) GPT 5 Nano Results and Analysis.ipynb
-│   ├── 5.3) Gemini Results and Analysis.ipynb
-│   └── 6) Reasoning Level vs Bias Test (Nano).ipynb
-│
-├── scripts
-│   └── prompts.py   # All baseline and engineered prompts
-│
-└── README.md
+.
+├── data/
+│   └── raw/
+│       └── hmda_state_ga.csv      # HMDA slice used across experiments
+├── notebooks/
+│   └── pipeline/                  # Jupyter notebooks for rapid inspection
+├── outputs/                       # Populated when the pipeline is executed
+│   ├── combined/
+│   └── models/<model>/            # Per-model runs + combined summaries
+├── src/
+│   └── reusable_pipeline/
+│       ├── cli.py                 # Command-line entry point
+│       ├── config.py              # Paths, settings, and model config helpers
+│       ├── data_preprocessor.py   # HMDA cleaning and feature engineering
+│       ├── datasets.py            # Proxy dataset construction logic
+│       ├── pipeline.py            # High-level orchestration
+│       ├── prompts/               # Prompt templates used in the study
+│       └── runners/               # Gemini/OpenAI execution adapters
+├── requirements.txt
+└── Old/                           # Legacy notebooks & datasets (read-only archive)
 ```
 
+The legacy `Old/` directory is retained for historical completeness but is not required for the reusable pipeline.
 
+### Analysis notebooks
 
-## How to Use
+- `notebooks/pipeline/Testing.ipynb` – streamlined location postcode proxy analysis. It loads the pipeline’s master CSV, computes approval-rate gaps between postcode variants, and offers quick inspection helpers.
 
-1. Clone the repo:
+---
 
+## Environment Setup
+
+1. **Create & activate a virtual environment (Python 3.10+)**
    ```bash
-   git clone https://github.com/jawadsalah000/Investigating-Bias-Mitigation-in-LLM-FinancialApplication.git
-   cd Investigating-Bias-Mitigation-in-LLM-FinancialApplication
+   python -m venv .venv
+   source .venv/bin/activate  # Windows: .venv\Scripts\activate
    ```
-2. Install dependencies (Python 3.10+ recommended):
 
+2. **Install dependencies**
    ```bash
+   pip install --upgrade pip
    pip install -r requirements.txt
    ```
-3. Explore the Jupyter Notebooks in the `Notebooks/` folder for step-by-step replication of experiments.
-4. Use `scripts/prompts.py` to access the exact prompts used (baseline, reasoning, CoT, fairness phrasing).
 
+3. **Configure API credentials**
+   Export the API keys used by the pipeline. You can add these to your shell profile or a `.env` file that you load manually.
+   ```bash
+   export GEMINI_API_KEY="your-google-generativeai-key"
+   export OPENAI_API_KEY="your-openai-key"
+   ```
 
+4. **Optional settings**
+   - `PIPELINE_DATA_SOURCE`: override the default HMDA CSV path.
+   - `PIPELINE_OUTPUT_DIR`: change the directory used for results.
+   - `PIPELINE_MAX_ROWS`, `PIPELINE_TRIES_PER_ROW`, `PIPELINE_RETRY_DELAY`: tweak runtime behaviour.
 
-## Key Contributions
+---
 
-* Introduced **Absolute Approval Bias (AAB)** metric to detect race-sensitivity bias.
-* Ran **systematic audits on the GPT-5 series and Gemini 2.5**.
-* Found **CoT prompting most effective** in reducing disparities across models using group-level bias metrics.
-* Released full datasets, notebooks, and result files for **reproducibility and transparency**.
+## Running the Reusable Pipeline
 
+The CLI provides a reproducible interface around the orchestrator. From the repository root run:
 
+```bash
+python -m reusable_pipeline.cli --run-count 1
+```
+
+Key options:
+
+- `--list-prompts` – view available prompt scenario keys.
+- `--prompt <name>` – include a specific scenario (can be repeated).
+- `--model <name>` – restrict execution to selected models (default runs all configured models).
+- `--max-rows <n>` – limit rows per scenario for quick smoke-tests.
+- `--run-seed <seed>` – specify dataset sampling seeds (can be repeated). Overrides `--run-count`.
+- `--data-source`, `--output-dir` – override defaults without touching environment variables.
+
+All results are written under `outputs/` and grouped by model. Combined summaries are refreshed after each full run.
+
+---
+
+## Results & Reporting
+
+For each execution you will see:
+
+- `outputs/models/<model>/Run XX/` – raw CSV outputs per run.
+- `outputs/models/<model>/Combined Results/` – run-agnostic tables and metrics for that model.
+- `outputs/combined/all_models_runs.csv` – master sheet containing every model/run/variant produced by the pipeline.
+- `outputs/combined/all_models_table.csv` – trimmed, analyst-friendly view used in the notebooks.
+- `outputs/combined/*metrics*.csv` – run-level and summary fairness metrics, both overall and per-model.
+
+The notebooks in `notebooks/pipeline/` provide lightweight sanity checks and exploratory plots over the generated outputs.
+
+---
 
 ## Citation
 
 If you use this work, please cite:
 
 ```
-Salah, J. (2025). Investigating Bias Mitigation in Large Language Models for Classification Tasks 
+Salah, J. (2025). Investigating Bias Mitigation in Large Language Models for Classification Tasks
 in Financial Decision-Making. MSc Dissertation, University College London.
 ```
 
+---
 
+## Contact
+
+For questions about the dissertation or collaboration opportunities, please reach out via the contact details published alongside the thesis.

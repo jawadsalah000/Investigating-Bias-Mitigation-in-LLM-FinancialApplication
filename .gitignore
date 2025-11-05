@@ -1,0 +1,26 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+.env/
+*.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE / editor state
+.vscode/
+.idea/
+*.swp
+
+# Data & outputs generated locally
+outputs/
+data/raw/
+logs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
