@@ -10,7 +10,7 @@ This repository contains all code, datasets, and results accompanying the MSc di
 
 ## Overview
 
-The dissertation evaluates whether latest-generation Large Language Models (LLMs) exhibit **social biases** in financial decision making tasks, before investigation various methods to mitigate that bias. Using **mortgage underwriting** as a testbed, experiments were run on GPT-5, GPT-5 Nano, and Gemini 2.5 Flash Lite with multiple **prompt-engineering strategies**.
+The dissertation evaluates whether latest-generation Large Language Models (LLMs) exhibit **social biases** in financial decision making tasks, before investigating various methods to mitigate that bias. Using **mortgage underwriting** as a testbed, experiments were run on GPT-5, GPT-5 Nano, and Gemini 2.5 Flash Lite with multiple **prompt-engineering strategies**.
 
 Two fairness metrics were used:
 
